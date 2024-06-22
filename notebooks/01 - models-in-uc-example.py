@@ -94,8 +94,8 @@ def get_weather_and_forecast():
 # COMMAND ----------
 
 # You can update the catalog and schema name containing the model in Unity Catalog if needed
-CATALOG_NAME = "main"
-SCHEMA_NAME = "default"
+CATALOG_NAME = "uc_workshop"
+SCHEMA_NAME = "sample"
 MODEL_NAME = f"{CATALOG_NAME}.{SCHEMA_NAME}.wind_forecasting"
 
 # COMMAND ----------
