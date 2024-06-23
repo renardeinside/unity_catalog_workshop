@@ -1,5 +1,11 @@
 # Databricks notebook source
 # MAGIC %md
+# MAGIC ###System Tables
+# MAGIC https://learn.microsoft.com/en-us/azure/databricks/admin/system-tables/audit-logs
+
+# COMMAND ----------
+
+# MAGIC %md
 # MAGIC ####Table access events of a specific user
 
 # COMMAND ----------

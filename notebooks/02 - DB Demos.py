@@ -1,4 +1,10 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC ###DB Demos
+# MAGIC https://github.com/databricks-demos/dbdemos
+
+# COMMAND ----------
+
 !pip install dbdemos
 
 # COMMAND ----------

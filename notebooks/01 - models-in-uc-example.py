@@ -1,6 +1,9 @@
 # Databricks notebook source
 # MAGIC %md
 # MAGIC # Models in Unity Catalog Example
+# MAGIC
+# MAGIC https://learn.microsoft.com/en-us/azure/databricks/mlflow/models-in-uc-example
+# MAGIC
 # MAGIC This notebook illustrates how to use Models in Unity Catalog to build a machine learning application that forecasts the daily power output of a wind farm. The example shows how to:
 # MAGIC
 # MAGIC - Track and log models with MLflow.

@@ -1,6 +1,6 @@
 -- Databricks notebook source
 -- MAGIC %md
--- MAGIC ###Create a catalog and a schema
+-- MAGIC ####Create a catalog and a schema
 
 -- COMMAND ----------
 
@@ -10,7 +10,7 @@ CREATE SCHEMA IF NOT EXISTS uc_workshop.sample;
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC ###Create a UC managed table
+-- MAGIC ####Create a UC managed table
 
 -- COMMAND ----------
 
@@ -29,7 +29,7 @@ INSERT INTO uc_workshop.sample.department VALUES
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC ###Create a UC External table
+-- MAGIC ####Create a UC External table
 
 -- COMMAND ----------
 
@@ -40,7 +40,13 @@ CREATE OR REPLACE TABLE uc_workshop.sample.nyctaxi_trips
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC ###**Create** a Managed Volume
+-- MAGIC ###UC Volumes
+-- MAGIC https://learn.microsoft.com/en-us/azure/databricks/connect/unity-catalog/volumes
+
+-- COMMAND ----------
+
+-- MAGIC %md
+-- MAGIC ####**Create** a Managed Volume
 
 -- COMMAND ----------
 
@@ -64,7 +70,7 @@ CREATE VOLUME IF NOT EXISTS uc_workshop.sample.arbitrary_files;
 -- COMMAND ----------
 
 -- MAGIC %md
--- MAGIC ###**Create** an External Volume
+-- MAGIC ####**Create** an External Volume
 
 -- COMMAND ----------
 
