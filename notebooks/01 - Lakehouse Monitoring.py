@@ -6,6 +6,10 @@
 
 # COMMAND ----------
 
+# MAGIC %run ./utils
+
+# COMMAND ----------
+
 !pip install dbdemos
 
 # COMMAND ----------
@@ -16,8 +20,6 @@ dbutils.library.restartPython()
 
 import dbdemos
 
-dbdemos.list_demos()
-
 # COMMAND ----------
 
-dbdemos.install('lakehouse-monitoring', catalog={YOUR_CATALOG}, schema='lakehouse_monitoring')
+dbdemos.install('lakehouse-monitoring', catalog=catalog_name, schema='lakehouse_monitoring', serverless=True)
