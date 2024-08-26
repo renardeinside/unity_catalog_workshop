@@ -6,15 +6,15 @@
 
 # COMMAND ----------
 
-# MAGIC %run ./utils
-
-# COMMAND ----------
-
 !pip install dbdemos
 
 # COMMAND ----------
 
 dbutils.library.restartPython()
+
+# COMMAND ----------
+
+# MAGIC %run ./utils
 
 # COMMAND ----------
 
