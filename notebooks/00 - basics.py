@@ -149,7 +149,7 @@ output_path.write_text(response.text)
 
 # COMMAND ----------
 
-iris_df = spark.read.csv(f"/Volumes/{catalog_name}/sample/arbitrary_files/iris.csv")
+iris_df = spark.read.csv(f"/Volumes/{catalog_name}/default/arbitrary_files/iris.csv")
 display(iris_df)
 
 display(
