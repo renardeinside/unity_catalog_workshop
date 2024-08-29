@@ -1,1 +1,1 @@
-# Databricks Unity Catalof Workshop Materials
+# Databricks Unity Catalog Workshop Materials
